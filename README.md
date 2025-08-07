@@ -74,3 +74,8 @@ I included several charts to help make the analysis easier to understand:
 Feel free to check the file to explore all plots.
 
 ---
+## 📧 Contact
+
+**Hafsa Zahoor**  
+📬 [hafsazahoor63@gmail.com](mailto:hafsazahoor63@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/hafsa-zahoor-6a4b01373?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)
