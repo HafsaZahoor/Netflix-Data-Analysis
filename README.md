@@ -1,13 +1,76 @@
-# Netflix-Data-Analysis
-This project explores Netflix’s content catalog using Python and Pandas. It includes data cleaning, transformation, and exploratory analysis to uncover insights about content types, genres, release trends, and country-wise distributions.
+# 🎬 Netflix Data Analysis Project
 
-🔧 Key Features:
-Cleaned and analyzed Netflix dataset (6,000+ entries)
+This project is a simple exploratory data analysis (EDA) of a Netflix movie dataset using Python. The main goal was to clean the data and use visualizations to explore patterns in genres, popularity, ratings, and release trends.
 
-Extracted year and country trends using datetime parsing
+---
 
-Visualized genre and vote distributions with Seaborn
+## 🎯 Objective
 
-Filtered shows by type, country, duration, and title keywords
+To analyze Netflix's movie data and gain insights into:
+- Common genres
+- Popularity trends
+- Average vote ratings
+- Movie release patterns over the years
 
-📌 Technologies: Python, Pandas, NumPy, Seaborn, Jupyter Notebook
+---
+
+## 🧰 Tools & Libraries
+
+- Python
+- Jupyter Notebook
+- Pandas (for data cleaning and manipulation)
+- NumPy (for numerical operations)
+- Matplotlib and Seaborn (for creating visualizations)
+
+---
+
+## 📊 Dataset Overview
+
+- 9,827 rows and 9 columns
+- Columns include: `title`, `genres`, `release_date`, `vote_average`, `popularity`, and more
+
+---
+
+## 🔍 What I Did
+
+### 1. Data Preprocessing
+- Removed missing values and duplicates
+- Dropped columns not needed: `overview`, `original_language`, `poster_url`
+- Converted `release_date` to datetime and extracted the release year
+- Cleaned up the `genres` column (some entries had multiple genres)
+- Created custom categories based on `vote_average`:
+  - Popular
+  - Average
+  - Below Average
+  - Not Popular
+
+### 2. Data Visualization
+- Answered basic questions like:
+  - What are the most common genres?
+  - Which movies are the most/least popular?
+  - How many movies are released per year?
+  - How do vote averages differ by genre?
+- Plotted results using bar charts, pie charts, line graphs, and heatmaps
+
+---
+
+## 💡 Key Insights
+
+- Dramas, comedies, and thrillers are the most frequent genres
+- Movie production increased significantly after 2010
+- Most movies fall into the "Average" vote category
+- Certain genres consistently receive higher/lower votes and popularity
+
+---
+
+## 📷 Visuals
+
+I included several charts to help make the analysis easier to understand:
+- Genre frequency
+- Vote distribution
+- Popularity extremes
+- Year-wise trends
+
+Feel free to check the file to explore all plots.
+
+---
